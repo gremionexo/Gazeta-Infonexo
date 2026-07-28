@@ -1,0 +1,145 @@
+.titulo {
+    text-align: center;
+    color: #eee1d0;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #eee1d0;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.saudacoes {
+    text-align: center;
+    color: #200c0c;
+    font-size: 40px;
+    padding: 8px;
+    margin: 0;
+}
+
+.version {
+    text-align: center;
+    color: #200c0c;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #200c0c;
+    width: 60%;
+}
+
+
+.cabecario {
+    background-color: #200c0c;
+    padding: 12px;
+    margin: 0;
+}
+
+
+.meio {
+    background-color: #eee1d0;
+    padding: 12px;
+    margin: 0;
+    flex: 1;
+}
+
+
+.rodape {
+    background-color: #200c0c;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.rodape-texto {
+    text-align: center;
+    color: #eee1d0;
+    font-size: 18px;
+    padding: 2px;
+    margin: 0;
+}
+
+.rodape-insta {
+    color: #eee1d0;
+    font-size: 17px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.tudo {
+    font-family: 'Merriweather', serif;
+    background-color: #200c0c;
+    padding: 12px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.lista-edicoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.edicao {
+    text-decoration: none;
+    color: #200c0c;
+    background: #eee1d0;
+    padding: 15px 25px;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+    font-size: 22px;
+    transition: 0.3s;
+    border: 3px solid #200c0c;
+    border-radius: 10px;
+}
+
+.edicao:hover {
+    background-color: #200c0c;
+    color: #eee1d0;
+    transform: scale(1.03);
+}
+
+
+.gazeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.gazeta img {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.voltar {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #200c0c;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #200c0c;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #200c0c;
+    color: #eee1d0;
+}
+
